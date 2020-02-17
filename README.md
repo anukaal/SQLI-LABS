@@ -19,5 +19,5 @@ The lab we will be using for demonstration is SQLi Labs, which can be freely dow
 
 1. Error Based Injections (Union Select)
   
-  i. String
-  ii. Integer
+  i. String\
+  ii. Integer\

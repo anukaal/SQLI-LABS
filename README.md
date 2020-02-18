@@ -33,3 +33,11 @@ The lab we will be using for demonstration is SQLi Labs, which can be freely dow
 4. Update Query Injection 
 
 5. Insert Query Injections 
+
+6. Header Injections. 
+
+    1.Referer based
+    
+    2.UserAgent based
+    
+    3.Cookie based

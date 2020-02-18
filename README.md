@@ -36,8 +36,8 @@ The lab we will be using for demonstration is SQLi Labs, which can be freely dow
 
 6. Header Injections. 
 
-    1.Referer based
+    i. Referer based
     
-    2.UserAgent based
+    ii. UserAgent based
     
-    3.Cookie based
+    iii. Cookie based

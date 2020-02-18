@@ -25,6 +25,7 @@ The lab we will be using for demonstration is SQLi Labs, which can be freely dow
 2. Error Based Injections (Double Injection Based)
 
 3. BLIND Injections: 
-   i.  Boolian Based\ 
+   i. Boolian Based 
+   
    ii. Time Based
 

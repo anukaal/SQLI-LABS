@@ -30,3 +30,6 @@ The lab we will be using for demonstration is SQLi Labs, which can be freely dow
    
    ii. Time Based
 
+4. Update Query Injection 
+
+5. Insert Query Injections 

@@ -41,3 +41,8 @@ The lab we will be using for demonstration is SQLi Labs, which can be freely dow
     ii. UserAgent based
     
     iii. Cookie based
+    
+
+7. Second Order Injections
+
+8. Bypassing WAF

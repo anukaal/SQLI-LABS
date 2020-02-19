@@ -46,3 +46,10 @@ The lab we will be using for demonstration is SQLi Labs, which can be freely dow
 7. Second Order Injections
 
 8. Bypassing WAF
+
+  i. Bypassing Blacklist filters Stripping comments Stripping OR & AND Stripping SPACES and COMMENTS Stripping UNION & SELECT
+  
+  ii. Impidence mismatch
+  
+
+9. Bypass addslashes()

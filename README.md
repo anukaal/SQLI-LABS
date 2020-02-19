@@ -53,3 +53,9 @@ The lab we will be using for demonstration is SQLi Labs, which can be freely dow
   
 
 9. Bypass addslashes()
+
+10. Bypassing mysql_real_escape_string. (under special conditions)
+
+11. Stacked SQL injections.
+
+12. Secondary channel extraction

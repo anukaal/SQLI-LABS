@@ -63,9 +63,9 @@ The lab we will be using for demonstration is SQLi Labs, which can be freely dow
 
 
 
+  
+  **Labs:**
 
-**Labs:**
+  **Lesson 1: GET – Error-Based – Single Quotes – String**
 
-**Lesson 1: GET – Error-Based – Single Quotes – String**
-
-
+You get a **“Welcome Dhakkan”** (a Hindi slang word that usually refers to a stupid person). The programmer for SQLI Labs definitely has a good sense of humor. Now we get a parameter “id” with numeric value injection.

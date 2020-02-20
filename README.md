@@ -62,6 +62,8 @@ The lab we will be using for demonstration is SQLi Labs, which can be freely dow
 
 
 
+
+
 **Labs:**
 
 **Lesson 1: GET – Error-Based – Single Quotes – String**

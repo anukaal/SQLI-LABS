@@ -59,3 +59,11 @@ The lab we will be using for demonstration is SQLi Labs, which can be freely dow
 11. Stacked SQL injections.
 
 12. Secondary channel extraction
+
+
+
+**Labs:**
+
+**Lesson 1: GET – Error-Based – Single Quotes – String**
+
+

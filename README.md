@@ -72,3 +72,5 @@ You get a **“Welcome Dhakkan”** (a Hindi slang word that usually refers to a
 We have the login name Dumb and the password is Dump. So basically we added a parameter to the URL and pointed that parameter to the first record. There was an immediate query from the browser to the database table to fetch the record for id=1. Similarly, you can fire the query for subsequent records like 2, 3, 4….
 Here is the actual query which ran at the back end:
 
+**Select * from TABLE where id=1;**
+

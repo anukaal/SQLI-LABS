@@ -74,3 +74,11 @@ Here is the actual query which ran at the back end:
 
 **Select * from TABLE where id=1;**
 
+
+  **Lesson 2: GET – Error-Based – Integer-Based**
+  
+Now we try to attack the application similarly by putting in strings such as “abc“and “abcd.” We observe that for lesson 2 we receive an error from the database. Next we do a bit of tampering with the number and add a ‘ (single quote) with the number.
+We again get an error in the Mysql server for incorrect syntax.
+**You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ‘\’ LIMIT 0,1′ at line 1**
+
+

@@ -54,3 +54,7 @@ $row = mysqli_fetch_array($result, MYSQLI_BOTH);
 		}
 
 ?>
+</font> </div></br></br></br><center>
+<img src="../images/Less-2.jpg" /></center>
+</body>
+</html>

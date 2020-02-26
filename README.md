@@ -81,4 +81,7 @@ Now we try to attack the application similarly by putting in strings such as “
 We again get an error in the Mysql server for incorrect syntax.
 **You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ‘\’ LIMIT 0,1′ at line 1**
 
+Now the query which it changes to is
+
+**Select * from TABLE where id = 1’ ;**
 

@@ -88,3 +88,6 @@ Now the query which it changes to is
 So we have an odd number of single quotes (‘), which breaks the query and also string input throwing error.
 Hence the result we come out with is that the coder has used integer for the query.
 
+**Select * from TABLE where id = (some integer value);**
+
+

@@ -91,3 +91,5 @@ Hence the result we come out with is that the coder has used integer for the que
 **Select * from TABLE where id = (some integer value);**
 To add protection from such errors we can comment out the rest of the query:
 
+**To be Noted** 😂
+

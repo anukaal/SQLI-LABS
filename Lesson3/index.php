@@ -50,3 +50,7 @@ $row = mysqli_fetch_array($result, MYSQLI_BOTH);
 	else { echo "Please input the ID as parameter with numeric value";}
 	
 ?>
+	
+	
+</font> </div></br></br></br><center>
+<img src="../images/Less-3.jpg" /></center>

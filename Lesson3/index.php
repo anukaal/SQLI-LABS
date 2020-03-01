@@ -48,3 +48,5 @@ $row = mysqli_fetch_array($result, MYSQLI_BOTH);
 	}
 }
 	else { echo "Please input the ID as parameter with numeric value";}
+	
+?>

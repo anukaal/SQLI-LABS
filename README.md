@@ -91,6 +91,6 @@ Hence the result we come out with is that the coder has used integer for the que
 **Select * from TABLE where id = (some integer value);**
 To add protection from such errors we can comment out the rest of the query:
 
-**To be Noted** 😂
-You Add a space after the comments or URL encoded space (%20) or else the comment will not work.
+**To be Noted** 😂\
+You Have to Add a space after the comments or URL encoded space (%20) or else the comment will not work.
 

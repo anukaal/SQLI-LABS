@@ -119,3 +119,17 @@ To add protection from such errors we can comment out the rest of the query:
 **To be Noted** 😂\
 You Have to Add a space after the comments or URL encoded space (%20) or else the comment will not work.
 
+
+
+**Lesson 3: Error-based single quotes with twist – string**
+
+In this lesson we will learn to perform an error-based single quote attack. First we try to attack the application similarly by putting some strings and number to check how the query is working using the message which is displayed on the screen in lesson 3 .
+**For example ?id='**
+After injecting the code we got an error message like...
+Server version for the right syntax to use near ””) LIMIT 0,1′ at line 1
+
+Here it means that the developer has used the query which is..
+**Select login_name, select password from table where id= (‘our input here’)**
+
+**So again we inject the code with this ?id=1′) –+**
+We are able to get through with the username and password and the query has been commented out.

@@ -75,6 +75,26 @@ Here is the actual query which ran at the back end:
 
 **Select * from TABLE where id=1;**
 
+In this we have to understand the query as it has quotes between 1 but by seeing it carefully it is the double qoutes in between the numbers.
+
+**    ‘             1’      - -   ,   # ,   /*         */ ‘  LIMIT 0,1**
+
+
+  %20      for.    spaces\
+  %23      for.     # 
+
+After putting - - symbol as we are working with the URL we have to encode it in the URL base.
+OR it should be URL encoded….
+
+When we uses - - to comment out rest of the query then we need to provide extra space after the double  - - , if not it will not work….
+As this is the injection through URL  so we have to URL encode the # sign…
+And URL encode for. # symbol is %23….
+The developer has already enclosed two quotes around what ever we input…
+
+
+
+
+
 
   **Lesson 2: GET – Error-Based – Integer-Based**
   

@@ -73,7 +73,11 @@ You get a **“Welcome Dhakkan”** (a Hindi slang word that usually refers to a
 We have the login name Dumb and the password is Dump. So basically we added a parameter to the URL and pointed that parameter to the first record. There was an immediate query from the browser to the database table to fetch the record for id=1. Similarly, you can fire the query for subsequent records like 2, 3, 4….
 Here is the actual query which ran at the back end:
 
+Main Query is working from back is this..
 **Select * from TABLE where id=1;**
+
+If Someone can think out of the box and give input as some other character.... Then what should we do..
+
 
 In this we have to understand the query as it has quotes between 1 but by seeing it carefully it is the double qoutes in between the numbers.
 

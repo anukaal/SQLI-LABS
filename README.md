@@ -160,10 +160,10 @@ We are able to get through with the username and password and the query has been
 
 In this lesson we will learn to perform an error-based double quotes injection attack as **?id=1′ AND ‘2 OR ?id=3′ AND ‘4**
 
-After injecting this type of code, the database always shows different usernames and passwords. Now we use the union select command to get more sensitive information from the database.
+After injecting this type of code, the database always shows different usernames and passwords. Now we use the union select command to get more sensitive information from the database.\
 **-6′ union select 5, version(),3 AND ‘1**
 
-In this query we use the version() function for detecting the database version; similarly, we can use another different query for retrieving more information from database.
+In this query we use the version() function for detecting the database version; similarly, we can use another different query for retrieving more information from database.\
 **-6′ union select 5,current_user,3 AND ‘1**
 
 

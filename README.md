@@ -133,3 +133,28 @@ Here it means that the developer has used the query which is..
 
 **So again we inject the code with this ?id=1′) –+**
 We are able to get through with the username and password and the query has been commented out.
+
+
+
+
+**Lesson 4: Error-Based Double Quotes String**
+
+In this lesson we will learn to perform an error-based double quotes string. First we try to attack the application similarly by putting some strings and number to check how the query is working using the message which is displayed on the screen in lesson 4.
+
+**For example ?id="**
+After injecting the code we got an error message like.....
+Server version for the right syntax to user near  '"1"") LIMIT 0,1' at line 1
+
+Here it means that the developer has used the query which is...
+**Select login_name, password from table where id= ("our input here ")**
+
+So here we have to deal with the double quotes 
+
+**So again we inject the code with this ?id=1") --+**
+We are able to get through with the username and password and the query has been commented out.
+
+
+
+
+
+

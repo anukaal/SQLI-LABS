@@ -156,7 +156,7 @@ We are able to get through with the username and password and the query has been
 
 
 
-**Lesson 5:Fixing the query without using comments**
+**Lesson 5(Not less-5) : Fixing the query without using comments**
 
 In this lesson we will learn to perform an error-based double quotes injection attack as **?id=1′ AND ‘2 OR ?id=3′ AND ‘4**
 

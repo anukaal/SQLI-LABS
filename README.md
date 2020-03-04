@@ -168,7 +168,7 @@ In this query we use the version() function for detecting the database version; 
 
 
 
-**Lesson 6 : Double Query Injection
+**Lesson 6 : Double Query Injection**
 
 In this lesson we will learn to perform an Error-based Double Query Injection Attack as **?id=1 \ or id=1'** whether we see What the developer has put in if the query is breaking we put **1'** .
 

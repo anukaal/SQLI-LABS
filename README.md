@@ -157,7 +157,7 @@ We are able to get through with the username and password and the query has been
 
 
 **Lesson 5(Not less-5) : Fixing the query without using comments**
-\
+
 In this lesson we will learn to perform an error-based double quotes injection attack as **?id=1′ AND ‘2 OR ?id=3′ AND ‘4**
 
 After injecting this type of code, the database always shows different usernames and passwords. Now we use the union select command to get more sensitive information from the database.\
@@ -204,6 +204,9 @@ These are the some Query which I have used in msql:
 
 **select count(*), concat(0x3a,0x3a(select user()),0x3a,0x3a, floor (rand()*2)) a from information_schema.columns group by a;**
 
+
+
+**Lesson 7: 
 
 
 

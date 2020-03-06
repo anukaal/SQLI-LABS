@@ -206,7 +206,9 @@ These are the some Query which I have used in msql:
 
 
 
-**Lesson 7: 
+**Lesson 7: Dumping database using out file**
+
+
 
 
 

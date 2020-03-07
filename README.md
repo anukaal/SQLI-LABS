@@ -208,6 +208,14 @@ These are the some Query which I have used in msql:
 
 **Lesson 7: Dumping database using out file**
 
+In this lesson, we will learn how to dump the database by using outfile. Let us start by breaking the sql query like this: **?id=1′–+**
+
+Now I would like to discuss some functions at the back end. Start mysql at your terminal and use the database security:
+**use security;**
+Let us dump the database with basic commands: **select * from users;**
+Now dump the database and ask mysql to write it into a file by using a function called outfile, so the query is
+**select * from users into outfile “/tmp/tests.txt”;**
+
 
 
 

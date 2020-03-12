@@ -217,6 +217,12 @@ Now dump the database and ask mysql to write it into a file by using a function 
 **select * from users into outfile “/tmp/tests.txt”;**
 
 
+So we can see there is another function, which is known as dump file. Dump file uses only a single row so we have to give it a limit for dumping the database:
+
+**select * from users limit 0,1 into dumofile "/tmp/text2.txt"**
+
+
+
 
 
 

@@ -221,6 +221,12 @@ So we can see there is another function, which is known as dump file. Dump file 
 
 **select * from users limit 0,1 into dumofile "/tmp/text2.txt"**
 
+Another function which is used is load file. It is used for loading files from the file system into mysql. Here is the query:
+
+**select load_file("etc/passwd")**
+
+
+
 
 
 

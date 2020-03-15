@@ -238,6 +238,10 @@ In this lesson we will learn to perform blind injections. Let us start from enum
 
 After injecting some queries we see that we do not have an error message on the screen. Hence we are not sure here that the injection exists on this page or not. That is why this type of injection is called blind injection. 
 
+There are two types of blind injection, **Boolean-based and time-based injections.**
+
+
+
 
 
 

@@ -232,7 +232,11 @@ Another function which is used is load file. It is used for loading files from t
 
 **Lesson 8: Blind Boolean-based single quotes**
 
+In this lesson we will learn to perform blind injections. Let us start from enumeration and try to break the query:
 
+**?id=1′ ?id=1\)**
+
+After injecting some queries we see that we do not have an error message on the screen. Hence we are not sure here that the injection exists on this page or not. That is why this type of injection is called blind injection. 
 
 
 

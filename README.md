@@ -240,7 +240,7 @@ After injecting some queries we see that we do not have an error message on the 
 
 There are two types of blind injection, **Boolean-based and time-based injections.**
 
-
+To start from basic
 
 
 

@@ -230,6 +230,10 @@ Another function which is used is load file. It is used for loading files from t
 
 
 
+**Lesson 8: Blind Boolean-based single quotes**
+
+
+
 
 
 

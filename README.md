@@ -255,6 +255,10 @@ Now we introduce a new function, length:
 **select substr(database(),1,1);**
 
 
+We use a new function called ASCII function. This function is used for getting the ASCII value of a string. This will make easier for us to detect the first letter of database, as shown in the screenshot below. We have a value of 115 and the query used is:
+
+**select ascii(substr(database(),1,1));**
+
 
 
 

@@ -252,6 +252,11 @@ Now we introduce a new function, length:
 **select length(database());**
 
 
+**select substr(database(),1,1);**
+
+
+
+
 
 
 

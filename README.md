@@ -243,6 +243,11 @@ There are two types of blind injection, **Boolean-based and time-based injection
 To start from basic sql commands :
 
 
+**use security;/**
+Now we introduce a new function, length:
+**select length(database());**
+
+
 
 
 

@@ -275,6 +275,8 @@ And the result is 1, meaning true. So make it 97 then. Use
 
 And the result is 0; it means false, hence the valid value lies between 97 and 101. So now keep trying to guess all values from 97 to 101.
 
+We get the 3rd value which is 99 and check it in the ASCII table sheet.
+
 
 
 

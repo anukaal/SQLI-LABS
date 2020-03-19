@@ -260,6 +260,13 @@ We use a new function called ASCII function. This function is used for getting t
 **select ascii(substr(database(),1,1));**
 
 
+Next we check this query:
+
+**select ascii(substr(database(),2,1)) < 101;**
+
+
+
+
 
 
 

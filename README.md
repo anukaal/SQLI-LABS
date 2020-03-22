@@ -318,6 +318,7 @@ Lab 9 does not give us a signal or an error that we have tampered the query, whi
 Here we introduce how to use the sleep command in Mysql. What we see from the command that we get a response 10 sec after running the query, so the Mysql sleeps for 10 seconds.
 
 
+Now when we run another query select if **((select database()=”security”, sleep(10), null);** we get the response 10 seconds after giving us the result that a database security exists. This is also known as a time-based SQL query.
 
 
 

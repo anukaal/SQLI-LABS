@@ -315,6 +315,9 @@ It means the 1st letter is E for Email.
 
 Lab 9 does not give us a signal or an error that we have tampered the query, which results in Mysql error. So now it makes us check whether SQL injection is possible.
 
+Here we introduce how to use the sleep command in Mysql. What we see from the screenshot is that we get a response 10 sec after running the query, so the Mysql sleeps for 10 seconds.
+
+
 
 
 

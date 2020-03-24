@@ -321,6 +321,9 @@ Here we introduce how to use the sleep command in Mysql. What we see from the co
 Now when we run another query select if **((select database()=”security”, sleep(10), null);** we get the response 10 seconds after giving us the result that a database security exists. This is also known as a time-based SQL query.
 
 
+Similarly if we try to run the query select if **((select database()=”securi”, sleep(10), null);**
+there is no time-based response from the SQL server which means that such a database does not exist.
+
 
 
 

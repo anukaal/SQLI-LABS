@@ -332,6 +332,11 @@ there is no time-based response from the SQL server which means that such a data
 In Lessons 11 & 12 we come to error-based SQL Injections in HTML forms. So we have a login page and we try to login using **username=”admin” password=”password“**. We get a failed login attempt response.
 
 Now we try the query again, using **username=” ‘ ” and password= ” ‘ “** (single quotes). We get a login failed attempt again.
+Similarly, the failed login error appears for double quotes for both username and password. But when we enter a double quote for just the username the SQL breaks and has an error.
+
+When we use a backslash (/) we get a better understanding of the query. We come to the result that we have a double quote followed by the bracket. Hence we have successfully derived the query. So the knowledge we take out from this result is that the developer has used the query.
+
+**Select * from TABLE where username= (“$uname”) and password=(“$password”) LIMIT 0,1**
 
 
 

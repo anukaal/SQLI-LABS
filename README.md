@@ -311,6 +311,12 @@ It means the 1st letter is E for Email.
 
 
 
+
+
+
+
+
+
 **Lessons 9 & 10: Blind injection time-based**
 
 Lab 9 does not give us a signal or an error that we have tampered the query, which results in Mysql error. So now it makes us check whether SQL injection is possible.

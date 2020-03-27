@@ -344,6 +344,8 @@ When we use a backslash (/) we get a better understanding of the query. We come 
 
 **Select * from TABLE where username= (“$uname”) and password=(“$password”) LIMIT 0,1**
 
+Now in order to fix the query so that it works, we can balance the quotes or comment out the rest of the query. So I comment out the rest of my query in the username field
+
 
 
 

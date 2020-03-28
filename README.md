@@ -349,6 +349,13 @@ Now as I press enter, it becomes a valid query though we are not able to login a
 
 Now we alter the username to **“) or 1=1 #:**
 
+And we are successfully able to login. 
+
+Similarly, we may get the records for the second user through the username **“) or 1=1 LIMIT 2,1 #**
+
+The query simply checks for the second OR condition, validates the user, and prints the record of the second row.
+
+
 
 
 

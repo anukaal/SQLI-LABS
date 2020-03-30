@@ -358,6 +358,8 @@ The query simply checks for the second OR condition, validates the user, and pri
 
 **Lessons 13 & 14: Double-injection single quotes with string**
 
+Now I will demonstrate Lesson 14 and leave Lesson 13 for readers to practice. It uses the same mechanism as we have used in this lab.
+
 
 
 

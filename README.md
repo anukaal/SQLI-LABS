@@ -356,6 +356,9 @@ Similarly, we may get the records for the second user through the username **“
 The query simply checks for the second OR condition, validates the user, and prints the record of the second row.
 
 
+**Lessons 13 & 14: Double-injection single quotes with string**
+
+
 
 
 

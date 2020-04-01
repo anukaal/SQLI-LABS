@@ -362,9 +362,11 @@ Now I will demonstrate Lesson 14 and leave Lesson 13 for readers to practice. It
 
 
 Inputting a large number or a single quote as a username and password does not work. It still gives us a “Login Attempt Failed” message.
+Now we try the double quotes in the username and voila, the query breaks.
 
+So what we can infer from this error message is that there is
 
-
+**‘ “/” and password=” ” LIMIT 0,1 ‘ at line 1**
 
 
 

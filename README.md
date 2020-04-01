@@ -368,6 +368,8 @@ So what we can infer from this error message is that there is
 
 **‘ “/” and password=” ” LIMIT 0,1 ‘ at line 1**
 
+Now we use ” or 1 # to bypass the login and we have success. The reason is that the 1 used after OR resolves to true and as a result we have successful query. The password is not matched since we commented out the rest of the query.
+
 
 
 

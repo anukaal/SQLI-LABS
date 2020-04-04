@@ -370,6 +370,15 @@ So what we can infer from this error message is that there is
 
 Now we use ” or 1 # to bypass the login and we have success. The reason is that the 1 used after OR resolves to true and as a result we have successful query. The password is not matched since we commented out the rest of the query.
 
+**Success!!**
+
+Now we move on to the next query, which is **Select concat((select database()));.**
+This basically selects the database and dumps it as a string. If we add the floor and random function to it, it becomes **select concat((select database() ), floor(rand(0)*2 ));**
+
+And we have security being concatenated in the output:
+We use the information schema table as covered previously to build our query further: **select 1 from (select concat(*), ( concat((select database() ), floor(rand(0)*2 ))c from information_schema.tables group by c)a;**
+
+
 
 
 

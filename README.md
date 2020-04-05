@@ -384,7 +384,8 @@ And we use it on the username. Please remember to concat your query so that the 
 
 **Lessons 15 & 16: Blind Boolean time-based with single and double quotes.**
 
-So now we move on to POST Parameter Blind-based Boolean injections which are like 1 or 1=1,  1 AND 1=1, which means for the first query we have the Boolean value 1 and for the second we also have the Boolean value 1..
+So now we move on to POST Parameter Blind-based Boolean injections which are like 1 or 1=1,  1 AND 1=1, which means for the first query we have the Boolean value 1 and for the second we also have the Boolean value 1.. which equals to TRUE, since an AND function is involved. In order to bypass the lab session 16 we use “) or (“1”)=”1
+for bypassing the login. We comment the query by using # if we just want to enter the username.
 
 
 

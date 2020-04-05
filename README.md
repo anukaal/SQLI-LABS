@@ -378,6 +378,17 @@ This basically selects the database and dumps it as a string. If we add the floo
 And we have security being concatenated in the output:
 We use the information schema table as covered previously to build our query further: **select 1 from (select concat(*), ( concat((select database() ), floor(rand(0)*2 ))c from information_schema.tables group by c)a;**
 
+And we use it on the username. Please remember to concat your query so that the query gets executed.
+
+
+
+**Lessons 15 & 16: Blind Boolean time-based with single and double quotes.**
+
+So now we move on to POST Parameter Blind-based Boolean injections which are like 1 or 1=1,  1 AND 1=1, which means for the first query we have the Boolean value 1 and for the second we also have the Boolean value 1..
+
+
+
+
 
 
 

@@ -384,9 +384,15 @@ And we use it on the username. Please remember to concat your query so that the 
 
 **Lessons 15 & 16: Blind Boolean time-based with single and double quotes.**
 
-So now we move on to POST Parameter Blind-based Boolean injections which are like 1 or 1=1,  1 AND 1=1, which means for the first query we have the Boolean value 1 and for the second we also have the Boolean value 1.. which equals to TRUE, since an AND function is involved. In order to bypass the lab session 16 we use “) or (“1”)=”1
-for bypassing the login. We comment the query by using # if we just want to enter the username.
+So now we move on to POST Parameter Blind-based Boolean injections which are like 1 or 1=1,  1 AND 1=1, which means for the first query we have the Boolean value 1 and for the second we also have the Boolean value 1.. which equals to TRUE, since an AND function is involved. In order to bypass the lab session 16 we use “) or (“1”)=”1 for bypassing the login. We comment the query by using # if we just want to enter the username.
 
+Now we move on to our next demonstration using Boolean-based blind SQL injections. This time we form the query “) or AND sleep(15) # but the query gets no response. We try to correct our query by using “) or OR sleep(15) #
+
+The query eventually becomes
+
+
+
+**select col1, col2 from TABLE where username= (” “) or sleep(15)”) and password=(” user data”);**
 
 
 

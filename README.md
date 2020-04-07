@@ -394,6 +394,9 @@ The query eventually becomes
 
 **select col1, col2 from TABLE where username= (” “) or sleep(15)”) and password=(” user data”);**
 
+Now since the **“)** does not result in TRUE, the AND statement fails and the OR statement executes successfully. Now if we change our AND query to **admin”) or OR sleep(15)** # we have a valid query and it results in TRUE, so our query gets successfully executed...
+
+
 
 
 

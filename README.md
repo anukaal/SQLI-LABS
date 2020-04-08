@@ -171,6 +171,9 @@ In this query we use the version() function for detecting the database version; 
 **Lesson 6 : Double Query Injection**
 
 In this lesson we will learn to perform an Error-based Double Query Injection Attack as **?id=1 \ or id=1'** whether we see What the developer has put in if the query is breaking we put **1'** .
+To check it whether it is correct or not or it is showing the result as it is in the databases we comment out the query and see that it is working or not.... 
+
+Using **--+** symbol.....
 
 We can see that the query is being follwed at the back is **Select col1,col2,col3 from table where id='3   '  OR '1   '**
 

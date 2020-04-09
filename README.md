@@ -401,10 +401,13 @@ Now since the **“)** does not result in TRUE, the AND statement fails and the 
 
 
 
+**Lesson 17 & 18 : INJECTION IN THE INSERT QUERY & INJECTION IN HEADERS**
 
 
+In the earlier parts of the series we looked at the GET and POST based injections and dived into details on error based SQL Injections (string type, Integer type), Double Query injections error based, Blind injections (Boolean based and Time based) or use the outfile/dumpfile to dump the info in text files . In this part we would look at the injections in the Insert Query. For this we would look at the Less-17.
+A general update query looks like
 
-
+**INSERT INTO table (col1,col2, col3) values (val1,val2, val3);**
 
 
 

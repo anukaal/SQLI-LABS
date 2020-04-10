@@ -409,7 +409,7 @@ A general update query looks like
 
 **INSERT INTO table (col1,col2, col3) values (val1,val2, val3);**
 
-
+For the purpose of fuzzing these input points we need to write a script or use interceptor proxies like Tamper data (add on for Firefox), Burp suite, Fiddler, Zap, or any other tool which allows you to modify the headers on the fly.
 
 
 

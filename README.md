@@ -413,6 +413,7 @@ For the purpose of fuzzing these input points we need to write a script or use i
 
 These sort of injections where the Header fields are being inserted into the database, our focus is to check if the data can be extracted from it is certain way. Well blind is always an option and we can use Boolean or time based injections. The process works but is overall slow.
 
+In cases where MySQL errors are displayed by the application, this can be used to dump the values efficiently and with much lesser number of queries as compared to Blind based. The logic of Double query injections is used to dump the info.
 
 
 

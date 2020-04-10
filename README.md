@@ -411,6 +411,7 @@ A general update query looks like
 
 For the purpose of fuzzing these input points we need to write a script or use interceptor proxies like Tamper data (add on for Firefox), Burp suite, Fiddler, Zap, or any other tool which allows you to modify the headers on the fly.
 
+These sort of injections where the Header fields are being inserted into the database, our focus is to check if the data can be extracted from it is certain way. Well blind is always an option and we can use Boolean or time based injections. The process works but is overall slow.
 
 
 

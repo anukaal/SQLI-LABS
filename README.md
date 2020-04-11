@@ -2,6 +2,9 @@
 
 # Introduction:
 
+**Some Info..... **
+
+An attacker always checks SQL injection vulnerability using a comma (‘) inside URL  to break the statement in order to receive a SQL error message. It is a fight between the developer and attacker, the developer increases the security level and the attacker tries to break it. This time developer had blocked error message as the output on the website. Hence if the database is vulnerable to SQL injection then the attacker does not obtain any error message on the website. The attacker will try to confirm if the database is vulnerable to Blind SQL Injection by evaluating the results of various queries which return either TRUE or FALSE.
 
 
 

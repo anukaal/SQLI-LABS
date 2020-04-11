@@ -67,6 +67,9 @@ The lab we will be using for demonstration is SQLi Labs, which can be freely dow
 
 
   **Lets GO to Explore**😄😄
+  **Let’s start!!**
+
+  Using Dhakkan we will demonstrate injection.
   
   **Labs:**
 

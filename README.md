@@ -3,6 +3,9 @@
 # Introduction:
 
 
+
+
+
 **SQLI labs to test error based, Blind boolean based, Time based.**
 
 **Structured Query Language**, also known as **SQL**, is basically a programming language that deals with databases.
@@ -234,6 +237,11 @@ Another function which is used is load file. It is used for loading files from t
 
 
 **Lesson 8: Blind Boolean-based single quotes**
+
+Their so many ways to hack the database using SQL injection as there are some  Error based attack, login formed based attack and much more different type of attack in order to retrieve information from the inside database. In the same way we will learn a new type of SQL injection attack known as Blind Boolean based attack.
+
+
+
 
 In this lesson we will learn to perform blind injections. Let us start from enumeration and try to break the query:
 

@@ -251,8 +251,8 @@ Lesson 8 is regarding blind boolean based injection therefore first we need to e
 
 **SELECT * from table_name WHERE id=1**
 
-
-
+As output, it will display “you are in” the yellow colour text on the web page as shown in the given image.
+When an attacker tries to break this query using a comma (‘) http://localhost:81/sqli/Less-8/?id=1’
 
 In this lesson we will learn to perform blind injections. Let us start from enumeration and try to break the query:
 

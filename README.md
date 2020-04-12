@@ -247,6 +247,11 @@ Another function which is used is load file. It is used for loading files from t
 Their so many ways to hack the database using SQL injection as there are some  Error based attack, login formed based attack and much more different type of attack in order to retrieve information from the inside database. In the same way we will learn a new type of SQL injection attack known as Blind Boolean based attack.
 
 
+Lesson 8 is regarding blind boolean based injection therefore first we need to explore **http://localhost:81/sqli/Less-8/?id=1** on the browser, this will send the query into the database.
+
+**SELECT * from table_name WHERE id=1**
+
+
 
 
 In this lesson we will learn to perform blind injections. Let us start from enumeration and try to break the query:

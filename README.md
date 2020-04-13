@@ -272,6 +272,9 @@ Now database test for given condition whether 1 is equal to 1 if the query is va
 
 Now it will test the given condition whether 1 is equal to 0 as we know 1 is not equal to 0 hence database answer as ‘FALSE’ query.
 
+**http://localhost:81/sqli/Less-8/?id=1' AND (length(database())) = 1 --+**
+
+
 
 
 To start from basic sql commands :

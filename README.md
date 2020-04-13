@@ -262,6 +262,10 @@ After injecting some queries we see that we do not have an error message on the 
 
 There are two types of blind injection, **Boolean-based and time-based injections.**
 
+Then attacker will go for blind SQL injection to make sure, that inject query must return an answer either true or false.
+
+**SELECT * from table_name WHERE id=1' AND 1=1**
+
 To start from basic sql commands :
 
 

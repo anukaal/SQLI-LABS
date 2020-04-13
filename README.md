@@ -266,6 +266,14 @@ Then attacker will go for blind SQL injection to make sure, that inject query mu
 
 **SELECT * from table_name WHERE id=1' AND 1=1**
 
+Now database test for given condition whether 1 is equal to 1 if the query is valid it returns TRUE, from the screenshot you can see we have got yellow colour text again “you are in”, which means our query is valid.
+
+**SELECT * from table_name WHERE id=1' AND 1=0**
+
+Now it will test the given condition whether 1 is equal to 0 as we know 1 is not equal to 0 hence database answer as ‘FALSE’ query.
+
+
+
 To start from basic sql commands :
 
 

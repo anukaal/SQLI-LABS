@@ -275,6 +275,25 @@ Now it will test the given condition whether 1 is equal to 0 as we know 1 is not
 **http://localhost:81/sqli/Less-8/?id=1' AND (length(database())) = 1 --+**
 
 
+**http://localhost:81/sqli/Less-8/?id=1' AND (length(database())) = 2 --+**
+
+Again we can see that when we use length(database() ==2 --+ it has return FALSE to reply NO the length of database string is not equal to 2.
+
+**http://localhost:81/sqli/Less-8/?id=1' AND (length(database())) = 8 --+**
+when I test for the string is equal to 8; it answers as true and as result yellow colour text “you are in” appears again.
+This means I am going in right direction.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 To start from basic sql commands :

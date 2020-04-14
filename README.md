@@ -283,6 +283,20 @@ Again we can see that when we use length(database() ==2 --+ it has return FALSE 
 when I test for the string is equal to 8; it answers as true and as result yellow colour text “you are in” appears again.
 This means I am going in right direction.
 
+So we we take help of ASCII code ....
+
+As we know the computer does not understand the human language it can read the only binary language, therefore, we will use ASCII code. The ASCII code associates an integer value for all symbols in the character set, such as letters, digits, punctuation marks, special characters, and control characters
+
+Next query will ask from database test the condition whether the first string of database name is greater than 100 using acsii substring.
+
+**http://localhost/sqli-labs/Less-8/?id=1' AND (ascii(substr((select database()),1,1))) > 100--+**
+It reflects TRUE condition hence if you match the ascii character you will observe that from 100 small alphabets string has been running till 172. Really I don't know...just a number 😂😂
+
+**http://localhost/sqli-labs/Less-8/?id=1' AND (ascii(substr((select database()),1,1))) > 120--+**
+Similarly, it will test again whether the first letter is greater than 120. But this time it returns FALSE which means the first letter is greater than 100 and less than 120.
+
+**http://localhost:81/sqli/Less-8/?id=1' AND (ascii(substr((select database()),1,1))) = 101--+**
+
 
 
 

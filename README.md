@@ -460,6 +460,33 @@ there is no time-based response from the SQL server which means that such a data
 **Lessons 11 & 12: Post Error-based single & double quotes**
 
 
+Lesson 11 is regarding POST error based single quotes (‘) string so when I explore this lab on the browser I observe that it contains a text field for username and password to login inside web server. As I am not a true user so I don’t know the correct username and password but being hacker I always wish to get inside the database with help of SQL injection. Therefore first I will test whether the database is vulnerable to SQL injection or not.
+
+So we when breaking the query we get an error message, now let me explain what this error message says.
+
+The right syntax to use near **”” and password=” LIMIT 0,1’**
+
+Now we need to fix this query with help of # (hash) comment; so after adding single quotes (‘) add a hash function (#) to make it syntactically correct.
+
+Username:  ‘   #
+
+Now whatever statement I will insert in between ‘and # the query will execute successfully with certain result according to it. Now to find out the number of columns used in the backend query I will use order by clause...
+
+**Username:  ' order by 2 #** //
+
+**Username:  ' order by 3 #**
+
+Similarly, insert query for union select in between ‘and # to select both records
+
+**' union select 1,2 #**
+
+Next query will fetch database name, it is as similar as in lesson 1 and from the screenshot, you can read the database name “security”
+
+**' union select 1,database() #**
+
+
+
+
 In Lessons 11 & 12 we come to error-based SQL Injections in HTML forms. So we have a login page and we try to login using **username=”admin” password=”password“**. We get a failed login attempt response.
 
 Now we try the query again, using **username=” ‘ ” and password= ” ‘ “** (single quotes). We get a login failed attempt again.
